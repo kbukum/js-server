@@ -1,1 +1,1 @@
-export {JsServer as default} from "./app/JsServer";
+export {Server as default} from "./api/Server";

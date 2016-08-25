@@ -1,11 +1,11 @@
 import Class from "../class/Class";
 
-export default class JsServer extends Class {
+export default class Server extends Class {
     __port;
     __server;
 
     constructor(port) {
-
+        super();
     }
 
     routeJson(RoutePath){
